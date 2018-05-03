@@ -5,8 +5,8 @@
       "WebServer" : {
          "Type" : "AWS::EC2::Instance",
          "Properties" : {
-            "ImageId" : "ami-1e299d7e",
-            "KeyName" : "nadonhosting",
+            "ImageId" : "ami-f830019d",
+            "KeyName" : "vagrantkey",
 			"InstanceType" : "t2.micro",
 			"SecurityGroups" : [ {"Ref" : "WebServerSecurityGroup"} ]
          }
